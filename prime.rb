@@ -1,5 +1,10 @@
 # Add  code here!
 def prime?(integer)
+  if integer < 2 
+    return false 
+  elsif integer  == 2 
+    return true 
+  end
   i = 2
   while i < integer
     if i % integer == 0 
